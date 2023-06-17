@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+		    height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+            padding: 20px;
+            color: white;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            overflow-y: auto;
+            height: 100%;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        /* Hide the scrollbar in the .main-container */
+        .main-container::-webkit-scrollbar {
+            background-color: white;
+			border-radius: 10px;
+			width: 4px;
+        }
+		body::-webkit-scrollbar {
+		     display: none;
+		}
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="img">
+            <img src="gold-pass.png">
+        </div>
+        <div class="info">
+            <h3>Gold Pass</h3>
+            <p>This is the initial NFT of our project, and only 1000 NFTs are available. Owning the Gold Pass grants the owner a total of 8 free NFTs from the 1st season.</p>
+        </div>
+        <div class="img">
+            <img src="question-mark.png">
+        </div>
+        <div class="info">
+            <h3> 7 Elements NFTs </h3>
+			<p> 
+			  The 7 Elements are not only NFTs but also the most important components of this story and game. 
+			  In the story, Lumos and Orion embark on a quest to find these Elements, and as they acquire each Element, 
+			  the corresponding NFT will become available in the NFT market. These NFTs serve as the key to Season 2 for the entire community.
+			  Gold Pass owners will receive these NFT for free (Terms and conditions apply).
+			</p>
+			<p> Total supply of each NFT:  N/A </p>
+        </div>
+        <div class="img">
+            <img src="question-mark.png">
+        </div>
+        <div class="info">
+            <h3> Ethereal Core </h3>
+			<p> 
+			  The Ethereal Core is an NFT that represents a vessel in the story, used for containing the 7 elements.
+			  Both the Ethereal Core and the 7 Elements NFTs serve as keys for the entire community to enter Season 2. 
+			  Gold Pass owners will receive this NFT for free (Terms and conditions apply).
+			</p>
+			<p> Total supply:  N/A </p>
+        </div>
+    </div>
+</body>
+</html>
