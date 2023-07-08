@@ -45,6 +45,7 @@ h3{
 	font-size: 22px;
 	color: white;
 	text-align: center;
+	font-family: "Courier New", "Lucida Console", monospace;
 	
 }
 .line{
@@ -55,12 +56,14 @@ h3{
 }
 
 p{
-	color: white;
+	color: #301934;
 	font-size: 18px;
+	font-family: "Courier New", "Lucida Console", monospace;
 }
 .page{
 	margin-bottom: 0px;
 	color: #301934;
+	
 }
 
 .button-container {
